@@ -81,7 +81,7 @@ st.markdown("Explore as informações referentes aos programas incluídos no PPA
 
 #Image.open(r'C:\Users\atsilva\Desktop\logo_seplan.png').convert('RGB').save('new.jpeg')
 
-img=Image.open(r'C:\Users\atsilva\Desktop\Seplan-BA.jpg')
+img=Image.open(r'Seplan-BA.jpg')
 
 st.image(img,width=674)
 
@@ -92,7 +92,7 @@ st.markdown("Informações dos Programas do PPA")
 #Parte interativa
 
 if st.button("Conheça os Programas da Seplan BA"):
-    img=Image.open(r'C:\Users\atsilva\Desktop\Programas_PPA.jpg')
+    img=Image.open(r'Programas_PPA.jpg')
     st.image(img,width=700, caption="Programas do PPA 2020-2023")
     #images=Image.open(r'C:\Users\atsilva\Desktop\new.jpeg')
   #  st.image(images,width=600)
@@ -131,7 +131,7 @@ df = ppa_ind
 
 data_load_state.text('Baixando base de dados do PPA do Programa de Gestão Governamental...Completo!')
 
-images=Image.open(r'C:\Users\atsilva\Desktop\new.jpeg')
+images=Image.open(r'new.jpeg')
 
 st.image(images,width=200)
 
