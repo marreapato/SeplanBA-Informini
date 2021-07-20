@@ -16,7 +16,7 @@ from PIL import Image
 # Processamento Dados
 
 #lendo excel sem queries
-ba = pd.ExcelFile("https://github.com/marreapato/SeplanBA-Informini/blob/main/Indicadores%20para%20pente%20fino_29-06-2021.xlsx/?raw=True")
+ba = pd.ExcelFile("https://github.com/marreapato/SeplanBA-Informini/blob/main/Indicadores%20para%20pente%20fino_29-06-2021.xlsx/?raw=True",engine="openpyxl")
 
 #indicadores:
 #ciencia e tecnologia
