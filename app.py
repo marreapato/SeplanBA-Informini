@@ -16,7 +16,7 @@ from PIL import Image
 # Processamento Dados
 
 #lendo excel sem queries
-ba = pd.ExcelFile("C:/Users/atsilva/Downloads/Indicadores para pente fino_29-06-2021.xlsx")
+ba = pd.ExcelFile("Indicadores para pente fino_29-06-2021.xlsx")
 
 #indicadores:
 #ciencia e tecnologia
