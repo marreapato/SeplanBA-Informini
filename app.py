@@ -7,6 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 from PIL import Image
+import openpyxl
 
 
 #streamlit run C:\Users\atsilva\Desktop\app.py
