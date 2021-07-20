@@ -105,7 +105,7 @@ st.markdown(
 
 
 st.info("O plano PluriAnual é Realizado de 4 em 4 anos e contém informações referente ao desenvolvimento de todo o estado da Bahia.")
-img=Image.open(r'C:\Users\atsilva\Desktop\nucleo_territorial_educacao_2018.jpg')
+img=Image.open(r'nucleo_territorial_educacao_2018.jpg')
 st.image(img,width=700,caption = "fonte: SEI - Superintendência de Estudos Econômicos e Sociais da Bahia (https://www.sei.ba.gov.br/index.php?option=com_content&view=category&id=1500&Itemid=101)")
 
 ##################################################################################################
