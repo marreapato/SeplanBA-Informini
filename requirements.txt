@@ -1,5 +1,5 @@
 streamlit==0.62.0
-dash_html_components==1.0.1
+dash_html_components
 seaborn==0.11.1
 dash_core_components
 matplotlib==3.3.4
